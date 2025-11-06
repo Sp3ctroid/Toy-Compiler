@@ -1,1 +1,1 @@
-This is too bad considering how much time it took
+This is too bad despite how much time it took
