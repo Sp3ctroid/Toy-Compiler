@@ -1,0 +1,21 @@
+INT result;
+
+FUNC factorial(n) {
+    IF n <= 1 BEGIN
+        RETURN n;
+    END
+    
+    INT temp;
+    temp = n - 1;
+    INT temp2;
+    temp2 = n * factorial(temp);
+    RETURN temp2;
+}
+
+FUNC main() {
+    INT n;
+    READ n;
+    result = factorial(n);
+    WRITE result;
+    RETURN result;
+}

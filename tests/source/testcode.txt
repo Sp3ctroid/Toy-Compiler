@@ -1,0 +1,63 @@
+INT x;
+
+FUNC add(a, b){
+	INT sum;
+	sum = a + b;
+	RETURN sum;
+}
+
+FUNC minus(a,b){
+
+	INT minus_var;
+	minus_var = a - b;
+	RETURN minus_var;
+
+}
+
+FUNC times(a,b){
+	
+	INT time;
+	time = a * b;
+	RETURN time;
+
+}
+
+FUNC div(a,b){
+	
+	INT division;
+	division = a / b;
+	RETURN division;
+}
+
+FUNC main(){
+
+	INT i;
+	READ i;
+
+	INT j;
+	READ j;
+	
+	INT sum;
+	sum = add(i, j);
+	WRITE sum;
+	
+	sum = minus(i,j);
+	WRITE sum;
+
+	sum = times(i,j);
+	WRITE sum;
+
+	sum = div(i,j);
+	WRITE sum;
+
+	FOR 1 TO 5 BEGIN
+		i = i + 1;
+		WRITE i;
+	END
+
+	IF j >= 5 BEGIN
+		WRITE i;
+	END
+
+	RETURN i;
+}

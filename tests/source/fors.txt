@@ -1,0 +1,16 @@
+INT x;
+FUNC main() {
+    INT i;
+    READ i;
+    INT j;
+    j = 1337;
+    IF i > 10 BEGIN
+        FOR 1 TO 3 BEGIN
+            WRITE i;
+        END
+    ELSE
+        WRITE j;
+    END
+    
+    RETURN i;
+}

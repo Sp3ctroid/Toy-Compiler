@@ -1,0 +1,29 @@
+INT x;
+
+FUNC recursive(a){
+	WRITE a;
+	IF a >= 12 BEGIN
+		WRITE a;
+		RETURN a;
+	END
+	
+	
+	INT b;
+	b = a + 1;
+	recursive(b);
+
+	RETURN b;
+}
+
+
+FUNC main(){
+
+	INT j;
+	
+	j = 1;
+	
+	recursive(j);
+
+	RETURN j;
+
+}
